@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimbus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'VT323', monospace;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-size: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 2rem;
+            padding: 2rem;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            border: 2px solid #8e44ad;
+            box-shadow: 0 0 20px rgba(142, 68, 173, 0.5);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #8e44ad;
+            text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .facts {
+            margin: 1.5rem 0;
+        }
+        
+        .facts li {
+            margin-bottom: 0.8rem;
+            list-style-type: none;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .facts li:before {
+            content: ">";
+            position: absolute;
+            left: 0;
+            color: #8e44ad;
+        }
+        
+        .contact {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px dashed #8e44ad;
+        }
+        
+        .pixel-cat {
+            color: #8e44ad;
+            font-size: 1.2rem;
+            white-space: pre;
+            line-height: 1.2;
+            margin: 2rem 0;
+        }
+        
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nimbus <span class="blink">_</span></h1>
+        
+        <p>Hiya, you have landed on the webpage of Nimbus.</p>
+        
+        <p>If you don't know me, here are some quick facts:</p>
+        
+        <ul class="facts">
+            <li>I am a demigirl cat, and this is serious! I go by She/Her or They/Them pronouns.</li>
+            <li>I'm AuADHD, and also I'm very introvert! But if we eventually become friends I might open up.</li>
+            <li>I love tech! And I oppose evil tech that does not serve the people.</li>
+            <li>I have many niche hobbies, if I list them here the page may seem crowded. Maybe you can ask me what are they!</li>
+            <li>I write plays and poems, most of them not in English though.</li>
+            <li>I periodically erase my social accounts.</li>
+        </ul>
+        
+        <p>That's all!</p>
+        
+        <div class="pixel-cat">
+/\_/\
+( o.o )
+ > ^ <
+        </div>
+        
+        <div class="contact">
+            <p>How to contact me: Currently I'm not in the mood to use an IM. I will update this section once I feel better.</p>
+            
+            <p>Have a good day!</p>
+        </div>
+        
+        <footer>
+            &copy; 2025 Nimbus Zephyrine | Made with 100% love
+        </footer>
+    </div>
+</body>
+</html>
